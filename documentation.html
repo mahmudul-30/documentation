@@ -1,0 +1,137 @@
+** start of html**
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Technical Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Getting_Started">Getting Started</a>
+    <a class="nav-link" href="#Installation">Installation</a>
+    <a class="nav-link" href="#Usage">Usage</a>
+    <a class="nav-link" href="#Advanced_Topics">Advanced Topics</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>This section introduces the topic.</p>
+      <p>Additional context is provided here.</p>
+      <p>More information for background understanding.</p>
+      <ul>
+        <li>Key point 1</li>
+        <li>Key point 2</li>
+      </ul>
+      <code>code snippet</code>
+    </section>
+
+    <section class="main-section" id="Getting_Started">
+      <header>Getting Started</header>
+      <p>This section provides the first steps.</p>
+      <p>Here are some prerequisites.</p>
+      <ul>
+        <li>Requirement 1</li>
+        <li>Requirement 2</li>
+      </ul>
+      <code>example code here</code>
+    </section>
+
+    <section class="main-section" id="Installation">
+      <header>Installation</header>
+      <p>Detailed installation instructions.</p>
+      <p>How to configure your setup.</p>
+      <code>install command here</code>
+    </section>
+
+    <section class="main-section" id="Usage">
+      <header>Usage</header>
+      <p>This section explains how to use the software.</p>
+      <p>Various commands and their functions.</p>
+      <code>usage command example</code>
+    </section>
+
+    <section class="main-section" id="Advanced_Topics">
+      <header>Advanced Topics</header>
+      <p>Delve into complex features.</p>
+      <p>Extended configurations and settings.</p>
+      <code>advanced code example</code>
+      <ul>
+        <li>Feature 1</li>
+        <li>Feature 2</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
+
+
+** end of html **
+
+** start of css **
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  height: 100vh;
+}
+
+#navbar header {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+#main-doc {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.main-section {
+  margin-bottom: 40px;
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
+
+
+** end of css**
+
